@@ -35,8 +35,10 @@ a:hover{
 }
 /*Hoofopskrif - In die middel met sub-opskrifte*/
 header {
-    text-align: center;
-    padding: var(--spacing);
+    display: flex;
+    align-items: center;
+    margin-bottom: var(--spacing);
+    gap: 1.5rem;
 }
 header h1{
     font-size: 2rem;
@@ -47,6 +49,14 @@ header h2{
 }
 header h3{
     color: var(--light);
+}
+/*Foto op bladsy*/
+header img.profile-photo {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border: 2px solid #ddd;
 }
 /*Navigasie met horisontale "menu"*/
 nav ul{
