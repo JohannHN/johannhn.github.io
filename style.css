@@ -84,7 +84,7 @@ main {
 section {
     background: #fff;
     padding: var(--spacing);
-    margin-bottom: var(--spacing);
+    margin-bottom: 1rem;
     border-radius: 8px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.1);
 }
