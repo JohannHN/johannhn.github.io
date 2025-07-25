@@ -41,15 +41,15 @@ header {
     gap: 1.5rem;
 }
 header h1{
-    font-size: larger;
+    font-size: 2rem;
     color: var(--secondary);
 }
 header h2{
-    font-size: large;
+    font-size: 1.5rem;
     color: var(--light);
 }
 header h3{
-    font-size: medium;
+    font-size: 1.25;
     color: var(--light);
 }
 /*Foto op bladsy*/
@@ -96,7 +96,9 @@ h4 {
     color: var(--tertiary);
 }
 h5 {
-    margin-bottom: 0.25rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
     color: var(--light);
 }
 /*Vertoon vaardighede*/
