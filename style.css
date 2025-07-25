@@ -91,7 +91,7 @@ section {
 section ul {
     list-style-position: inside;
     padding-left: 0;
-    margin: 0;
+    margin-bottom: 1rem;
 }
 /*Ander opskrifte dieselfde*/
 h2 {
