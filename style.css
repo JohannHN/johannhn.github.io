@@ -65,7 +65,8 @@ nav ul{
     display: flex;
     justify-content: center;
     gap: var(--spacing);
-    padding-left: 4rem;
+    padding-left: 0;
+    list-style: none;
     margin: var(--spacing) 0;
 }
 /*Hoofuitleg wat aanpasbaar is*/
@@ -87,6 +88,11 @@ section {
     border-radius: 8px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.1);
 }
+section ul {
+    list-style-position: inside;
+    padding-left: 0;
+    margin: 0;
+}
 /*Ander opskrifte dieselfde*/
 h2 {
     margin-bottom: 0.5rem;
@@ -106,7 +112,7 @@ h5 {
 ul.skills-lys {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.5rem;
+    gap: 1rem;
 }
 ul.skills-lys {
     background: var(--primary);
