@@ -66,6 +66,7 @@ nav ul{
     justify-content: center;
     gap: var(--spacing);
     margin: var(--spacing) 0;
+    padding-left: 1rem;
 }
 /*Hoofuitleg wat aanpasbaar is*/
 main {
@@ -81,6 +82,7 @@ main {
 /*Afdelings mooier vertoon*/
 section {
     background: #fff;
+    list-style-position: inside;
     padding: var(--spacing);
     margin-bottom: var(--spacing);
     border-radius: 8px;
@@ -92,6 +94,7 @@ h2 {
     color: var(--secondary);
 }
 h4 {
+    margin-top: 1rem;
     margin-bottom: 0.5rem;
     color: var(--tertiary);
 }
@@ -109,7 +112,7 @@ ul.skills-lys {
 }
 ul.skills-lys {
     background: var(--primary);
-    padding: 0.3rem 8rem;
+    padding: 1rem 8rem;
     font-size: 0.9rem;
     color: #fff;
     border-radius: 4px;
