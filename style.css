@@ -66,7 +66,7 @@ main {
         grid-template-columns: 1fr;
     }
 }
-/*Afdeling mooier vertoon*/
+/*Afdelings mooier vertoon*/
 section {
     background: #fff;
     padding: var(--spacing);
